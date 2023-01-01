@@ -1,3 +1,80 @@
 .hidden {
   display: none!important;
 }
+
+body {
+  background-image: url(/assets/snowdog.webp);
+  font-family: fantasy;
+  background-attachment: fixed;
+  /* position: absolute; */
+  background-repeat: no-repeat;
+  /* display: flex;
+  flex-direction: column; */
+  background-position: center;
+  /* border: solid; */
+
+
+}
+
+.fuckthisshit {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.title-box{
+  padding-left: 200px;
+  padding-right: 400px;
+  background-color: rgb(220, 213, 213);
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  background-color: rgb(220, 213, 213);
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.form {
+  /* display: flex;
+  justify-content: center; */
+  padding-left: 200px;
+  padding-right: 600px;
+  padding-top: 150px;
+  /* border-radius: 10px; */
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: rgb(220, 213, 213);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.write-btn{
+padding-right: 300px;
+}
+
+.everything{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px
+}
+
+.story-box{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.story{
+  display: flex;
+  padding:10px;
+  background-color: rgb(220, 213, 213);
+  border-radius: 10px;
+  
+}
